@@ -164,7 +164,7 @@ $(function () {
 
     if (hasRedFrame) {
       const notice = $('<span class="red-frame-notice">')
-        .text('臨時列車がいます')
+        .text('臨時列車在線')
         .css({
           position: 'absolute',
           top: '3px',
@@ -223,3 +223,4 @@ $(function () {
   // 初回実行
   init();
 });
+
